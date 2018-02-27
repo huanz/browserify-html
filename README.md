@@ -8,7 +8,8 @@ npm i browserify-html
 
 ## Options
 
-
+- exts - default: `['html', 'tpl']`
+- minify - default: `{removeComments: true, collapseWhitespace: true, collapseBooleanAttributes: true, removeRedundantAttributes: true, removeEmptyAttributes: true}`, see [html-minifier](https://github.com/kangax/html-minifier#options-quick-reference)
 
 ## Usage
 
