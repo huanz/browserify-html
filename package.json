@@ -1,0 +1,32 @@
+{
+  "name": "browserify-html",
+  "version": "0.0.1",
+  "description": "Makes HTML files usuable as modules in Browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huanz/browserify-html.git"
+  },
+  "keywords": [
+    "browserify",
+    "html",
+    "transform",
+    "browserify-transform"
+  ],
+  "author": "bukas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huanz/browserify-html/issues"
+  },
+  "homepage": "https://github.com/huanz/browserify-html#readme",
+  "dependencies": {
+    "html-minifier": "^3.5.9",
+    "through": "^2.3.8"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
